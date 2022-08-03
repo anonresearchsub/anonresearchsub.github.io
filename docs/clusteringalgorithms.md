@@ -11,4 +11,4 @@ permalink: /docs/clusteringalgorithms
 
 Bunch implementation and extensions: [zip](/assets/data/bunch-source.zip)
 
-K-means extension: [zip](/assets/data/kmeans-source.zip)
+Spectral extension: [zip](/assets/data/spectral-source.zip)
