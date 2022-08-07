@@ -3,12 +3,16 @@ layout: default
 title: Clustering Algorithms
 nav_order: 4
 has_children: false
-permalink: /docs/clusteringalgorithms
+permalink: /docs/clusteringimplementation
 ---
 
-# Clustering Algorithms
+# Clustering Implementation
 ---
+
+#### Bunch
 
 Bunch implementation and extensions: [zip](/assets/data/bunch-source.zip)
 
+
+#### Spectral Clustering
 Spectral extension: [zip](/assets/data/spectral-source.zip)
