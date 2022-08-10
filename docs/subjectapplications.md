@@ -27,39 +27,6 @@ The table below contains information about the subject applications used in this
 - [XWiki, 14.1](https://github.com/xwiki/xwiki-platform) 
 - [PartsUnlimitedMRP](https://github.com/microsoft/PartsUnlimitedMRP) -->
 
-#### Relationship Data
-The table below contains the static and name-based similarity relationships we extracted in our study. Additionally, we provide the normalized combined relationships for each case study.
-
-| Subject Application     | Static Relationships | Name-based Similarity Relationships | Normalized and Combined Relationships |
-|----------------|----------------------|-------------------------------------|---------------------------------------|
-| Bash           |                      |                                     |                                       |
-| Hadoop         |                      |                                     |                                       |
-| ArchStudio     |                      |                                     |                                       |
-| MozillaFirefox |                      |                                     |                                       |
-| XWiki          |                      |                                     |                                       |
-| PartsUnlimited |                      |                                     |                                       |
-
-#### Decompositions
-The table below contains the decompositions produced for each clustering approach: *Bunch*, Spectral clustering with k = GT, and Spectral clustering with k = Bunch.
-
-Each decomposition set contains the following files:
-* `static-decomposition`: decomposition produced by static relationships
-* `name-decomposition`: decomposition produced by name-based relationships
-* `union-decomposition`: decomposition produced by the union-based approach
-* `consensus-decomposition`: decomposition produced by the consensus-based approach
-  
-
-| Case Study     | Bunch    | Spectral clustering k=GT | Spectral clustering k=Bunch | Expected Decomposition |
-|----------------|----------|--------------------------|-----------------------------|------------------------|
-| Bash           | [link]() | [link]()                 | [link]()                    | [link]()               |
-| Hadoop         | [link]() | [link]()                 | [link]()                    | [link]()               |
-| ArchStudio     | [link]() | [link]()                 | [link]()                    | [link]()               |
-| MozillaFirefox | [link]() | [link]()                 | [link]()                    | [link]()               |
-| XWiki          | [link]() | [link]()                 | [link]()                    | [link]()               |
-| PartsUnlimited | [link]() | [link]()                 | [link]()                    | [link]()               |
-
-The files are in ... format ...
-
 
 <!-- For completeness, we also attach the version of the code we extracted from these repositories, which we used in our analysis: 
 
