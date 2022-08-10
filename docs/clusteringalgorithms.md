@@ -11,8 +11,8 @@ permalink: /docs/clusteringimplementation
 
 #### Bunch
 
-Bunch implementation and extensions: [zip](/assets/data/bunch-source.zip)
+Bunch implementation and extensions: [zip](/assets/data/Bunch-source.zip)
 
 
 #### Spectral Clustering
-Spectral extension: [zip](/assets/data/spectral-source.zip)
+Spectral extension: [zip](/assets/data/Spectral-source.zip)
