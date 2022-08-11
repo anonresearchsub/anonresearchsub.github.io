@@ -17,7 +17,7 @@ The table below contains information about the subject applications used in this
 | ArchStudio           | 4       | Java     | [link](https://github.com/isr-uci-edu/ArchStudio4)                       | [zip](/assets/data/archstudio-source.zip) | [link](https://www.cs.purdue.edu/homes/lintan/ArchRecovery/) |
 | Mozilla Firefox      | 1.9.3a4 | C++      | [link](https://ftp.mozilla.org/pub/firefox/releases/devpreview/1.9.3a4/) | [zip](/assets/data/mozilla-source.zip)    | Directory structure                                          |
 | XWiki                | 14.1    | Java     | [link](https://github.com/xwiki/xwiki-platform)                          | [zip](/assets/data/xwiki-source.zip)      | Directory structure                                          |
-| PartsUnlimited       | -       | Java     | [link](https://github.com/microsoft/PartsUnlimitedMRP)                   |                                           | [link](https://github.com/microsoft/PartsUnlimitedMRPmicro)  |
+| PartsUnlimited       | -       | Java     | [link](https://github.com/microsoft/PartsUnlimitedMRP)                   | [zip](/assets/data/PartsUnlimited-source.zip) | [link](https://github.com/microsoft/PartsUnlimitedMRPmicro)  |
 
 
 <!-- - [Hadoop, 0.19.0](https://hadoop.apache.org/) (used in _Measuring the Impact of Code Dependencies on Software Architecture Recovery Techniques_. T. Lutellier, D. Chollak, J. Garcia, L. Tan, D. Rayside, N. Medvidovic, and R. Kroeger. In IEEE Transactions on Software Engineering)
