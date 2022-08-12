@@ -11,28 +11,29 @@ permalink: /docs/clusteringimplementation
 
 #### Bunch
 
-Bunch implementation and extension for the consensus-based decomposition approach: [zip](/assets/data/Bunch-source.zip).
-
+Bunch implementation and extension for the consensus-based decomposition approach: [zip](/assets/data/Bunch-source.zip).  
 Alternatively, the Bunch clustering approach can be executed using a jar file: [jar](/assets/data/Bunch-jar.zip).
 
-**To run the jar file:**  \
+**To run the jar file:**\
 `java -cp Bunch.jar bunch.RunBunch <relationship graph: file in .csv format> <consensus groups: file in .txt format> <population size: integer> <output dir: directory path>`
 
-Inputs:  
+Inputs:
 - The `relationship graph` must be a CSV file. Specifically, each line represents a relationship and must be formatted as follows: `[caller class],[callee class],[relationship weight]`.
 - The `consensus groups` in TXT format contains all the elements in the relationship graph that you wish to lock together during the clustering process. Each line represents a consensus group and must be formatted as follows: `SS('GROUP_NAME'.ss) = entity0, entity1, entity2...`. 
   - Note: if you wish to define NO consensus groups, then input an empty txt file. 
 - The `population size` is parameter used to optimize the clustering. The higher the population size, the better the clustering result. 
 - The `output dir` is the directory path where the results will be saved. 
 
-
-*Examples:*  
+\
+*Examples:*
 * To produce the by-static decomposition, execute with the static relationships graph and no consensus groups.
 * To produce the consensus-based decomposition, execute with the combined weighted relationship graph with consensus groups.
 
+
 #### Spectral Clustering
 
-Spectral clustering implementation: [zip](/assets/data/Spectral-source.zip)
+Spectral clustering implementation: [zip](/assets/data/Spectral-source.zip).  
+
 Execute the `run_cosnensus_spectral_clustering.py` script with the following arguments:
 * `--relationship-graph`\*: relationship graph in CSV format
 * `--output`\*: output destination
