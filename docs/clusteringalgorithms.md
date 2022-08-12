@@ -25,7 +25,7 @@ Inputs:
 - The `output dir` is the directory path where the results will be saved. 
 
 \
-*Examples:*
+Examples:
 * To produce the by-static decomposition, execute with the static relationships graph and no consensus groups.
 * To produce the consensus-based decomposition, execute with the combined weighted relationship graph with consensus groups.
 
@@ -34,7 +34,7 @@ Inputs:
 
 Spectral clustering implementation: [zip](/assets/data/Spectral-source.zip).  
 
-Execute the `run_cosnensus_spectral_clustering.py` script with the following arguments:
+Execute the `run_consensus_spectral_clustering.py` script with the following arguments:
 * `--relationship-graph`\*: relationship graph in CSV format
 * `--output`\*: output destination
 * `--num-of-cluster`\*: number of clusters *k*
