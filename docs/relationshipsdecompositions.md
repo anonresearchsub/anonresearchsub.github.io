@@ -11,7 +11,7 @@ permalink: /docs/relationshipsanddecompositions
 
 #### Relationships between Application Elements
 
-In this work, we consider two *relationship types* between application elements: by element name-similarity and by static relationships. We collected relationships between elements on a file/class level.
+In this work, we consider two *relationship types* between application elements: by-element-name-similarity and by-static relationships. We collected relationships between elements on a file/class level.
 
 #### Relationship Data
 
@@ -35,8 +35,8 @@ Relationship-Data
 ...
 ```
 
-For both the static and class-name relationships, the `Graph.csv` file contains the un-normalized weights and the `GraphNormalized.csv` file contains the normalized weights between elements.
-Additionally, the `CombinedWeightedGraph.csv` file contains the combined relationship graph from the static and class-name normalized graphs.
+For both the static and name relationships, the `*ClassNameGraph.csv` and `*StaticGraph.csv` files contain the un-normalized weights and the `*GraphNormalized.csv` file contains the normalized weights between elements.
+Additionally, the `*CombinedWeightedGraph.csv` file contains the combined relationship graph from the static and class-name normalized graphs.
 
 Each CSV contains 3 columns: application element A, application element B, and the edge weight between elements A and B.
 
@@ -75,7 +75,7 @@ Decomposition-Results
 ...
 ```
 
-The `ClassName.json`, `Static.json`, `Union.json`, `Consensus.json` files contain the by-name similarity, by-static, union-based and consensus-based decompositions, respectively. 
+The `*ClassName.json`, `*Static.json`, `*Union.json`, `*Consensus.json` files contain the by-name similarity, by-static, union-based and consensus-based decompositions, respectively. 
 To produce the by-name similarity and by-static decompositions, the `*ClassNameGraphNormalized` and `*StaticGraphNormalized` were used, respectively. To produce the union-based decomposition, the `*CombinedWeightedGraph` was used.
 
 The `GroundTruth.json` file contains the expected decomposition based on the ground-truth architecture. The `Consensus_groups.json` file contains the consensus groups extracted from the by-name similarity and by-static decompositions, and used by the consensus-based approach.
